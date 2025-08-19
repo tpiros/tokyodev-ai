@@ -1,0 +1,35 @@
+{
+  "name": "qa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "chat": "node --env-file=.env chat.js",
+    "chat-stream": "node --env-file=.env chat-stream.js",
+    "chat-with-history": "node --env-file=.env chat-with-history.js",
+    "code": "node --env-file=.env code-execution.js",
+    "ecommerce": "cd ecommerce && npm run dev",
+    "fine-tuning": "node --env-file=.env fine-tuning.js",
+    "function": "node --env-file=.env function.js",
+    "grounding": "node --env-file=.env grounding.js",
+    "prompt": "node --env-file=.env prompt.js",
+    "prompt-stream": "node --env-file=.env prompt-stream.js",
+    "structured": "node --env-file=.env structured-output.js",
+    "weather": "node --env-file=.env no-live-information.js",
+    "system-prompt": "node --env-file=.env system-prompt.js",
+    "thinking": "node --env-file=.env thinking.js"
+  },
+  "keywords": [],
+  "author": "Tamas Piros",
+  "license": "FREE",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^1.15.0",
+    "cli-markdown": "^3.4.0",
+    "marked": "^15.0.8",
+    "natural": "^8.0.1",
+    "open": "^10.1.0",
+    "wav": "^1.0.2",
+    "yocto-spinner": "^0.2.0"
+  }
+}
